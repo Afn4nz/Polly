@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.Polly.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/Theme.Polly.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <!--android:onClick="Put you sign in function"-->
+
+    <Button
+        android:id="@+id/SignInbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="490dp"
+
+        android:text="Sign in"
+        app:cornerRadius="50px" />
+
+
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/Username"
+        android:layout_width="244dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="590dp"
+        android:layout_marginTop="320dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/Password"
+        android:layout_width="244dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="590dp"
+        android:layout_marginTop="450dp"
+        android:password="true"
+        />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="440dp"
+        android:layout_marginTop="320dp"
+        android:text="UserName:"
+        android:textSize="25dp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="450dp"
+        android:textSize="25dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="1262dp"
+        android:layout_height="289dp"
+        android:layout_marginTop="10dp"
+
+
+
+        app:srcCompat="@drawable/modhi" />
+
+    <TextView
+
+        android:id="@+id/noAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't Have an account? Sign up Here"
+        android:layout_marginTop="670dp"
+        android:layout_marginLeft="500dp"
+        android:clickable="true"
+
+        />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

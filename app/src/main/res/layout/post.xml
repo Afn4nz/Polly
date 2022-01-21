@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="740dp"
+    android:orientation="vertical"
+    android:padding="16dp"
+
+    tools:context=".activities.MainActivity">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:theme="@style/Theme.Polly.AppBarOverlay">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="1229dp"
+                android:layout_height="match_parent"
+
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/Theme.Polly.PopupOverlay"
+                app:subtitleTextColor="#171616"
+                app:title="Post a Poll"
+                app:titleTextAppearance="@style/TextAppearance.AppCompat.Large"
+                app:titleTextColor="#EFEFF3" />
+
+
+        </com.google.android.material.appbar.AppBarLayout>
+    </TableRow>
+
+    <TableRow>
+
+    <EditText
+
+
+        android:id="@+id/ptitle"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="Title"
+        android:inputType="textPersonName" />
+
+
+</TableRow>
+
+    <TableRow>
+
+        <EditText
+
+
+            android:id="@+id/pdes"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:ems="10"
+            android:hint="description"
+            android:inputType="textPersonName" />
+
+
+    </TableRow>
+    <TableRow>
+
+
+    </TableRow>
+    <TableRow>
+
+
+
+
+
+    </TableRow>
+    <TableRow
+        android:layout_width="136dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="10px"
+            android:layout_height="60dp"
+            android:layout_marginTop="15dp"
+
+android:layout_gravity="center"
+            android:text="submit"
+            app:cornerRadius="50px" />
+
+
+
+    </TableRow>
+
+
+</TableLayout>

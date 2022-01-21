@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.Polly.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/Theme.Polly.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <!--android:onClick="Put you sign in function"-->
+
+    <Button
+        android:id="@+id/Registerbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_gravity="center"
+        android:layout_marginTop="500dp"
+        android:text="Register"
+        app:cornerRadius="50px" />
+
+
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/Rusername"
+        android:layout_width="244dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="640dp"
+        android:layout_marginTop="250dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/Rpassword"
+        android:layout_width="244dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="640dp"
+        android:layout_marginTop="350dp"
+        android:password="true"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="490dp"
+        android:layout_marginTop="270dp"
+        android:text="UserName:"
+        android:textSize="25dp"
+        />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="490dp"
+        android:textSize="25dp"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="confirm:"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="490dp"
+        android:textSize="25dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/confirm"
+        android:layout_width="244dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="640dp"
+        android:layout_marginTop="450dp"
+        android:password="true" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="292dp"
+        app:srcCompat="@drawable/modhi" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

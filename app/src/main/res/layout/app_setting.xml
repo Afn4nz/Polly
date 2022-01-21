@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_gravity="center"
+        android:text="Volume Mode:"
+
+        android:textStyle="bold"
+        android:textSize="30dp"
+        />
+
+    <Button
+        android:id="@+id/SilentMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Silent"
+        app:cornerRadius="50px"
+        />
+
+    <Button
+        android:id="@+id/NormalMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Normal"
+        app:cornerRadius="50px"
+
+        />
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:text="App Theme:"
+
+        android:textStyle="bold"
+        android:textSize="30dp"
+        />
+
+    <Button
+        android:id="@+id/LightTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Blue"
+        app:cornerRadius="50px"
+        />
+
+    <Button
+        android:id="@+id/DarkTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Pink"
+        app:cornerRadius="50px"
+        />
+
+
+
+
+
+</LinearLayout>
