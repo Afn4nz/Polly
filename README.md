@@ -1,5 +1,5 @@
 # Polly
-<img width="800" alt="Picturjje1" src="https://github.com/Afn4nz/Polly-App/blob/master/app/src/main/res/drawable/modhi.png" style="margin-left: 700px;">
+<img width="800" alt="Picturjje1" src="https://github.com/Afn4nz/Polly-App/blob/main/app/src/main/res/drawable/modhi.png" style="margin-left: 700px;">
 
 Polly is an Android application that was built using JAVA, and XML languages with SQLite database. 
 The idea behind it is to let organizations, researchers and other people create productive online polls quickly without making you go in circles.
